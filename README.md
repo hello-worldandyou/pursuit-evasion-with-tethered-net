@@ -4,7 +4,7 @@ https://github.com/Unity-Technologies/ml-agents/tree/main/docs
 
 # pursuit-evasion-with-tethered-net
 Orbital TAD (1 attacker, 1 defender, 1 target)
-links:
+links: https://pan.baidu.com/s/16-ezkFVQbuMz-V3Q9WnalQ 提取码: g7sm
 
 Orbital TAD (4 attacker, 1 defender, 1 target)
 links:
@@ -24,7 +24,9 @@ CUDA_VISIBLE_DEVICES(选用哪个GPU)，SatellitePEOrig.yaml(yaml文件)， run-
 --num-envs(倍速训练，倍速效果不好)，--no-graphics(不要训练的动画界面)
 
 # 代码说明
+文件所在unity工程位置:  \Assets\Examples\SatelliteCapture\Scripts
 AgentSatelliteA.cs   AgentSatelliteD.cs    AgentSatelliteT.cs   设置三种智能体的状态转移， 输入方式
 SatelliteEnvController.cs    初始化设置，奖励函数设置，结束条件设置
 ClothCollisionDetector.cs    绳网的碰撞检测设置
 ObiSolverInitializer.cs      绳网的初始化设置
+

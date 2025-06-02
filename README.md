@@ -19,6 +19,7 @@ https://zhuanlan.zhihu.com/p/393516577
 
 生成Windows或ubuntu系统可执行文件，在mlagent Python环境下运行训练命令：
 CUDA_VISIBLE_DEVICES=6 mlagents-learn SatellitePEOrig.yaml --run-id=beisu5fixedblue0522 --force --env SateP4exe/onlypursuer0522beisubluestatic.x86_64 --num-envs=10 --no-graphics --base-port=16322
+
 CUDA_VISIBLE_DEVICES(选用哪个GPU)，SatellitePEOrig.yaml(yaml文件)， run-id(设置本次训练的ID)，  --force(重新训练，resume是继续训练)，SateP4exe/onlypursuer0522beisubluestatic.x86_64(训练文件的路径),
 --num-envs(倍速训练，倍速效果不好)，--no-graphics(不要训练的动画界面)
 
